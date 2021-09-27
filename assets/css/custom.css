@@ -120,7 +120,7 @@ nav {
     display: flex;
     align-items: flex-start;
     position: relative;
-    background-color: #e8fcff;
+    background-color: #aeaeaf;
     margin-top: 30px;
     padding: 20px;
     border-radius: 8px;
@@ -174,7 +174,7 @@ nav {
 }
 
 .apr {
-  background-color:#97d9e1;
+  background-color:#1b47c0;
   color: rgb(12, 11, 11) !important;
   padding: 5px 10px;
   border-radius: 5px;
@@ -517,7 +517,7 @@ h4 {
 
 .btn-buy {
     color: rgb(2, 2, 2);
-    background-color: #97d9e1;
+    background-color: #636364;
     border-radius: 8px;
     /* border-color: #354D5F; */
     font-weight: 600;
