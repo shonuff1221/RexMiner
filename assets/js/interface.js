@@ -642,10 +642,10 @@ function userBalance(callback){
 
 function buyEggs(ref, trx, callback){
 	if(+trx > +usrBal) {
-		alert("You don't have " + trx + " CAKE in your wallet");
+		alert("You don't have " + trx + " REX in your wallet");
 	}
 	else if(+trx > +spend) {
-		alert("Approve spending " + trx + " CAKE first");
+		alert("Approve spending " + "REX" + " REX first");
 	} else {
 			minersContract.methods.buyEggs(ref, web3.utils.toWei(trx)).send({ from:currentAddr }).then(result => {
         callback();
